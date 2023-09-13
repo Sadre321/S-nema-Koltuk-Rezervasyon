@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sinema Rezervasyon uygulamasi</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="screen"></div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat reserved"></div>
+                <div class="seat reserved"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat reserved"></div>
+                <div class="seat reserved"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+        </div>
+
+        <div class="movieList">
+            <select id="movie">
+                <option disabled>Film Seciniz...</option>
+                <option value="15">Semur 4:Mahser</option>
+                <option value="45">Barbie</option>
+                <option value="45">Oppenheimer</option>
+            </select>
+        </div>
+
+        <ul class="info">
+            <li>
+                <div class="seat selected"></div>
+                <small>Secildi</small>
+            </li>
+            <li>
+                <div class="seat"></div>
+                <small>Bos</small>
+            </li>
+            <li>
+                <div class="seat reserved"></div>
+                <small>Dolu</small>
+            </li>
+        </ul>
+
+        <p class="text">
+            <span id="count">0</span> adet koltuk icin hesaplanan ucret
+            <span id="amount">0</span>
+        </p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
